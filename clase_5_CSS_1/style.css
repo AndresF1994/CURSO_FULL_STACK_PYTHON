@@ -1,0 +1,30 @@
+h4{
+    color: white;
+    background-color: black;
+}
+
+*{
+    margin: 15px;
+}
+span{
+    color: antiquewhite;
+    background-color: brown;
+}
+/*para el selector de clase se le coloca un punto al inicial */
+
+.otroh3{
+    color: yellow;
+    background-color: black;
+}
+.bloque{
+    color: blue;
+    background-color: aqua;
+    border: 3px solid yellow;
+    height: 200px;
+    width: 200px;
+}
+/* para el selector de indicador se le coloca un # al inicial */
+#unico{
+    color:brown;
+    background-color: yellowgreen;
+}

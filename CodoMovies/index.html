@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/CodoMovies/static/img/google-play-movie.png" type="image/x-icon">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>CaC Movies</title>
+</head>
+<body style="background-color: grey;">
+
+    <h1>Bienvenidos a CodoMovies</h1>
+    <h2>Tu sitio de peliculas</h2>
+
+    <header class="header">
+        <nav>
+            <h1><a href="/CodoMovies/index.html">CaC Movies</a></h1>
+            <ul type = "square"> 
+                <li>Tendencias</li>
+                <li>Peliculas Favoritas</li>
+                <!--Link con ruta relativa-->
+                <li><a href="/CodoMovies/register.html">Registrarse</a></li>
+                <!--Link con ruta absoluta-->
+                <li><a href="https://developer.themoviedb.org/reference/intro/getting-started" target="_blank">Ir a la API</a></li>
+
+                <li>Iniciar Sesión</li>
+
+            </ul>
+            <!--Lista ordenada
+            <ol>
+                <li>Ujo</li>
+                <li>Dos</li>
+                <li>Tres</li>
+            </ol>-->
+        </nav>
+    </header>
+
+    <main>
+        <section id="banner" class="banner-css">
+            <h1>Bienvenido a CaC Movies</h1> <br>
+            <h2>Tu sitio favorito de pelis</h2>
+        </section>
+
+        <section id="search">
+            <h2>¿Que Estas Buscando Para Ver?</h2>
+        </section>
+
+        <section>
+            <h2>Tendencias</h2>
+
+            <div id="popular-list">
+                <a href="/CodoMovies/detail-movies.html">
+                <img src="/CodoMovies/static/img/caballero.jpg" alt="Corazon de Caballero" width="200" height="300">
+                </a>
+
+                <a href="/CodoMovies/detail-movies.html">
+                    <img src="/CodoMovies/static/img/valen.jpg" width="200" height="300" alt="Moto GP">
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="">Terminos y Condiciones</a>
+        <a href="">Preguntas Frecuentes</a>
+        <a href="">Ayuda</a>
+    </footer>
+
+
+</body>
+</html>

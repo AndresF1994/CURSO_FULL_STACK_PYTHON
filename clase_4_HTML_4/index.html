@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 4 de HTMl</title>
+</head>
+<body>
+    <h1>Formularios, etiquetas, semanticas y subidas a servidor</h1>
+
+    <form action="show_data.html" target="_blank">
+        <fieldset>
+            <legend>DATOS PERSONALES</legend>
+            <label for="name">Nombre:</label> <!-- El for debe ir con el mismo nombre que el id-->
+            <input type="text" id="name" placeholder="Ingresa tu Nombre" size="30" maxlength="15" required>
+        
+            <label for="lastname">Apellido:</label>
+            <input type="text" id="lastname" placeholder="Ingresa tu Apellido" size="30" maxlength="15">
+
+            <select name="Tipo de documento" >
+                <option value="Cedula">C.C</option>
+                <option value="Tarjeta identidad">T.I</option>
+                <option value="Cedula Extrangeria">C.E</option>
+            </select>
+
+            <label for="dni">Documento:</label>
+            <input type="number" id="dni" placeholder="Numero de documento" size="30" maxlength="15">
+
+            <label for="Fecha">Fecha de nacimiento:</label>
+            <input type="date" id="Fecha" placeholder="Fecha de registro" size="30" maxlength="15">
+            
+            <br><br>
+            <!--------------------------------------------------------------------------------------------->
+            <label for="Pais">Pais</label>
+            <input type="text" id="Pais" placeholder="Pais de residencia" size="30" maxlength="15">
+            <label for="Departamento">Departamento</label>
+            <input type="text" id="Departamento" placeholder="Departamento de residencia" size="30" maxlength="15">
+            <label for="Ciudad">Ciudad</label>
+            <input type="text" id="Ciudad" placeholder="Ciudad de residencia" size="30" maxlength="15">
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" placeholder="Direccion de residencia" size="30" maxlength="15">
+            <br><br>
+            <!--------------------------------------------------------------------------------------------->
+            
+        </fieldset>
+        <br><br>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" placeholder="Ingresa tu Email" size="30" maxlength="15">
+        <label for="pass">Contraseña:</label>
+        <input type="password" id="pass" placeholder="Ingresa tu Password" size="30" maxlength="15">
+        <br><br>
+        <p>Que cursos deseas tomar</p>
+        <input type="checkbox" name="cursos" value="Python">Python
+        <input type="checkbox" name="cursos" value="JavaScript">JavaScript
+        <input type="checkbox" name="cursos" value="HTML">HTML
+        <input type="checkbox" name="cursos" value="CSS">CSS
+        <input type="checkbox" name="cursos" value="PHP">PHP
+        <br><br>
+        <p>Que horarios tienes disponible para recibir el curso</p>
+        <input type="radio" name="horario" value="Mañana">Mañana
+        <input type="radio" name="horario" value="Tarde">Tarde
+        <input type="radio" name="horario" value="Noche">Noche
+        <br><br>
+
+        <p>Deja tu comentario:</p>
+        <textarea placeholder="Ingrese se comentario..." name="coments" cols="60" rows="10"></textarea>
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+        <br><br>
+        <p>Si usted hace clic en enviar la infromacion sera enviada a la pagina "show_data"</p>
+
+
+    </form>
+</body>
+</html>

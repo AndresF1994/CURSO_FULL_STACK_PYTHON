@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="/clase_3_HTML_3/Asset/captura.ico">
+    <title>Clase 3</title>
+</head>
+<body>
+    <h1>Multimedia y Tablas</h1>
+    <h2>Imagenes globales y locales</h2>
+    <img src="https://picsum.photos/200" alt="imagen global">
+    <img src="/clase_3_HTML_3/Asset/Captura de pantalla 2024-04-30 180606.png" alt="Computronik">
+
+    <h2>Videos</h2>
+    <video controls controlsList="nodownload" src="/clase_3_HTML_3/Asset/1. Sobre el Curso.mp4" width="700" height="500"></video> <!--Archivo tipo mp4-->
+    <h2>Audio</h2>
+    <audio controls controlsList="nodownload" src="/clase_3_HTML_3/Asset/Audio_W.mp3"></audio>
+
+    <h2>Iframes</h2>
+    <iframe  width="560" height="315" src="https://www.youtube.com/embed/cd-T5YyER-Q?si=rTa6jvWxlyjRL2Zl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h3>Ciudad de Popayán</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63778.38371262158!2d-76.6411341121105!3d2.457470070076159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e300311c028d47d%3A0x880bd67f0987a54e!2zUG9wYXnDoW4sIENhdWNh!5e0!3m2!1ses!2sco!4v1716325439181!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h2>Tablas</h2>
+
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+            <th>Correo</th>
+            <th>Posicion</th>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Perez</td>
+            <td>20</td>
+            <td colspan="2">juan.perez@</td>
+            <td>Subcampeones del mundo</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>Perez</td>
+            <td>20</td>
+            <td rowspan="2">pedro.perez@</td>
+            <td>Campeones del mundo</td>
+        </tr>
+
+        <tr>
+            <td>Juan</td>
+            <td>Perez</td>
+            <td>20</td>
+            <td>juan.perez@</td>
+            <td>Subcampeones del mundo</td>
+        </tr>
+    </table>
+
+</body>
+</html>

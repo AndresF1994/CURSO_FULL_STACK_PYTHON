@@ -1,0 +1,51 @@
+*{
+    margin: 20px;
+}
+
+
+.bloque{
+    background-color: aqua;
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+}
+
+.bloque2{
+    background-color: rgb(161, 56, 56);
+    border: 2px solid black;
+    width: 20em;
+    height: 20em;
+    overflow: auto;
+}
+
+.bloque3{
+    background-color: rgb(196, 134, 134);
+    border: 2px solid black;
+    width: 50vw;
+    height: 50vh;
+}
+
+.bloque4{
+    width: 70vw;
+    height: 50vh;
+    background-image: url('/clase_6_CSS_2/img/Ney.jpg');
+}
+
+p{
+    font-size: 30px;
+    font-style: oblique;
+
+    font-family: "Sevillana", cursive;
+    font-weight: 600;
+}
+
+.Texto1{
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+i{
+    color: blue;
+    font-size: 50px;
+}

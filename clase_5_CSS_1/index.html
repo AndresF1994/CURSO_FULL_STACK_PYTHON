@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Introduccion a CSS</h1>
+
+    <!--CSS en linea-->
+    <h2 style="color: orange; background-color: aqua;">Este es el modo de implementar CSS en linea</h2>
+
+    <h3>Este texto estara modificado por un CSS interno</h3>
+    <!--En este caso modifica todos los h3 que esten dentro del texto HTML-->
+    <h3 class="otroh3">Que sucede si tengo otro h3 en el texto HTML</h3>
+    <style> 
+        h3{
+        color:black;
+        background-color: orange;
+        }
+    </style>
+
+    <!--CSS Externo-->
+    <h4>Este texto esta <span>modificado por un</span>  style externo</h4>
+    <h4>Esto tambien sera modificado por un estilo externo</h4>
+    <h4 id="unico">Este es modificado de manera diferente a los demas</h4>
+
+    <div class="bloque">
+        <p>
+            <b>Esto es un bloque</b>
+        </p>
+    </div>
+</body>
+</html>

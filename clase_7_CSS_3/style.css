@@ -1,0 +1,45 @@
+.container{
+    width: 1100;
+    height: 2000;
+    background-color: aqua;
+    border: 3px solid black;
+    padding: 200px;
+}
+
+.caja1{
+    width: 300px;
+    height:300px;
+    background-color: orange;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+
+    padding: 30px;
+    overflow: auto;
+}
+
+.caja2{
+    width: 30vw;
+    height: 35vh;
+    border-top: 3px black solid;
+    border-bottom: 5px red dotted;
+    border-left: 4px orange dashed;
+    border-right: 4px yellow double;
+    margin: 100px 150px 200px 250px; /*la margen va orientada en el sentido de las horas del reloj */
+    overflow: auto;
+    position: relative;
+    bottom: 200px;
+    left: 300px;
+
+}
+
+.caja3{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    border: 3px black solid;
+    margin: 50px;
+    padding: 50px 30px;
+}

@@ -1,0 +1,112 @@
+h1, p{
+    color: red;
+}
+
+div h2{
+    color: blueviolet;
+}
+
+article > div {
+    border: 3px solid black;
+}
+
+h3:first-child{
+    color:orange;
+}
+
+h3:last-child{
+    color:blueviolet;
+}
+
+h3:nth-child(2){
+    color:red;
+}
+
+h3:nth-child(2n){
+    background-color: rosybrown;
+}
+
+h3:nth-child(2n+1){
+    background-color: lightblue;
+}
+
+a:link{
+    color:red;
+}
+
+a:hover{
+    background-color: aqua;
+}
+
+.pseudoelementos::first-letter{
+    color: yellow;
+    background-color: black;
+}
+
+.pseudoelementos::first-line{
+    background-color: rgb(130, 209, 56);
+}
+
+span{
+    background-color: rgb(47, 172, 255);
+}
+
+.caja1{
+    border: 3px solid pink;
+    width: 300px;
+    height:300px;
+    background-color: orange;
+    padding: 30px;
+    margin: 20px;
+}
+
+.caja1:hover{
+    background-color: blueviolet;
+    /*transform: translate(20px,-30px);*/
+    transform: rotateZ(60deg) translate(20px, -30px) scale(1.5,1.5);
+}
+
+
+.caja2{
+    border: 3px solid pink;
+    width: 300px;
+    height:300px;
+    background-color: orange;
+    padding: 30px;
+    margin: 20px;
+    transition: background-color 2s ease-in;
+}
+
+.caja2:hover{
+    background-color: blueviolet;
+    width: 500px;
+}
+
+.caja3{
+    border: 3px solid pink;
+    width: 300px;
+    height:300px;
+    background-color: orange;
+    padding: 30px;
+    margin: 20px;
+}
+
+.caja3:hover{
+    animation: cambiarColor 4s;
+
+}
+
+@keyframes cambiarColor{
+    from{
+        background-color: aqua;
+        font-size: small;
+        width: 200px;
+    }
+
+    to{
+        background-color: violet;
+        font-size: large;
+        width: 500px;
+    }
+
+}

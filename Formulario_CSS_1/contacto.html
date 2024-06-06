@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_contacto.css">
+
+
+    <title>Contacto</title>
+</head>
+<body>
+     
+    <header id="unico">
+        <img src="/Formulario_CSS_1/asset/coche.jpg" alt="Computronik" width="2000px" height="700px">
+        <h1>
+            <b>CONTACTA A NUESTROS SERVICIOS PARA MAYOR INFORMACION</b>
+        </h1>
+    </header>
+
+    <nav class="navega">
+
+        <a href="index.html">Home</a>
+        <a href="acercade.html">Acerca de</a>
+        <a href="misproductos.html">Mis productos</a>
+        <a href="contacto.html">Contacto</a>
+        <img src="/Formulario_CSS_1/asset/contacto.jpg" alt="contacto">
+    </nav>
+
+    <main id="main">
+        <p>
+            <b id="be">Dejanos un mensaje y nos contactaremos contigo</b>
+        </p>
+        <form action="show_data.html" target="_blank">
+            <fieldset class="datos">
+                <legend>Datos Personales</legend>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" maxlength="15" placeholder="Ingresa tu nombre" size="20">
+                <label for="lastname">Apellido:</label>
+                <input type="text" id="lastname" placeholder="Ingresa tu Apellido" maxlength="15" size="20">
+
+                <select name="tipo de documento">
+                    <option value="Cedula de Cidadania">C.C</option>
+                    <option value="Tarjeta de identidad">T.i</option>
+                    <option value="Cedula de Extrangeria">C.E</option>
+                </select>
+                
+                <label for="dni">Numero de Documento:</label>
+                <input type="text" id="dni" placeholder="Ingresa tu Numero de Documento" maxlength="15" size="30">
+                <br><br>
+                <label for="email">Correo Electronico:</label>
+                <input type="mail" id="email" placeholder="Ingresa tu correo electronico" maxlength="15" size="20">
+
+                <label for="phone">Numero de Telefono:</label>
+                <input type="tel" id="phone" placeholder="Ingresa tu Numero de Telefono" maxlength="15" size="20">
+            </fieldset>
+
+            <p>
+                <b>Dejanos tu comentario y nos pondremos en contacto contigo para aclararte las dudas:</b>
+            </p>
+            <textarea placeholder="ingresa tu comentario" name="coments" cols="90" rows="10"></textarea>
+            <br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>    
+    </main>
+
+    
+</body>
+</html>

@@ -1,0 +1,35 @@
+.container{
+    width: 90vw;
+    height: 70vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.caja1{
+    width: 25vw;
+    height:25vw;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.caja2{
+    width: 25vw;
+    height:25vw;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.caja3{
+    width: 25vw;
+    height:25vw;
+    background-color: greenyellow;
+    border: 1px solid black;
+}
